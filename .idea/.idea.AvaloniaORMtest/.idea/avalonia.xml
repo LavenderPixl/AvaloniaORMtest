@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="AvaloniaORMtest/Views/CreateGroupView.axaml" value="AvaloniaORMtest/AvaloniaORMtest.csproj" />
+        <entry key="AvaloniaORMtest/Views/CreateGroupWindow.axaml" value="AvaloniaORMtest/AvaloniaORMtest.csproj" />
+        <entry key="AvaloniaORMtest/Views/CreateUserVIew.axaml" value="AvaloniaORMtest/AvaloniaORMtest.csproj" />
+        <entry key="AvaloniaORMtest/Views/CreateUserView.axaml" value="AvaloniaORMtest/AvaloniaORMtest.csproj" />
+        <entry key="AvaloniaORMtest/Views/MainWindow.axaml" value="AvaloniaORMtest/AvaloniaORMtest.csproj" />
+        <entry key="AvaloniaORMtest/Views/SetContentArea.axaml" value="AvaloniaORMtest/AvaloniaORMtest.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

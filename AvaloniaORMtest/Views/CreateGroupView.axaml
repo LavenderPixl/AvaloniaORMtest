@@ -1,0 +1,22 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:vm="using:AvaloniaORMtest.ViewModels"
+             x:DataType="vm:CreateGroupViewModel"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
+             Height="600" Width="400"
+             x:Class="AvaloniaORMtest.Views.CreateGroupView">
+
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0 10 0 0">
+            <TextBlock Text="Group Name: "/>
+            <TextBox />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="0 10 0 0">
+            <TextBlock Text="Clearance: "/>
+            <!-- <ComboBox Items="{Binding }"></ComboBox> -->
+        </StackPanel>
+        <Button Content="Create new Group" Command="{Binding CreateGroup}" Margin="0 10 0 0"/>
+    </StackPanel>
+</UserControl>
